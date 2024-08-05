@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-90dp"
+        tools:layout_editor_absoluteY="417dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon_back" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="Health Tips"
+                    android:textColor="@color/black"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_lightpink"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Fitness Tips"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.455"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="14dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/textView12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView11"
+                        app:srcCompat="@drawable/nutritionaltips" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="156dp"
+                        android:layout_height="115dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="46dp"
+                        android:text="Eat a rainbow of fruits and vegetables to maximize your intake of essential vitamins and minerals. "
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/imageView2"
+                        app:layout_constraintTop_toBottomOf="@+id/textView11"
+                        app:layout_constraintVertical_bias="0.0"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:text="See More"
+                        android:textColor="@color/hotpink"
+                        app:layout_constraintEnd_toEndOf="@+id/textView12"
+                        app:layout_constraintHorizontal_bias="0.529"
+                        app:layout_constraintStart_toStartOf="@+id/textView12"
+                        tools:layout_editor_absoluteY="190dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_lightpink">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Exercise Tips"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.455"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="14dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/textView14"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView13"
+                        app:srcCompat="@drawable/fitnesstips" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="156dp"
+                        android:layout_height="115dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="46dp"
+                        android:text="Stay active with a mix of cardio, strength, and flexibility exercises for overall fitness.  "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/imageView3"
+                        app:layout_constraintTop_toBottomOf="@+id/textView13"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:text="See More"
+                        android:textColor="@color/hotpink"
+                        app:layout_constraintEnd_toEndOf="@+id/textView14"
+                        app:layout_constraintStart_toStartOf="@+id/textView14"
+                        tools:layout_editor_absoluteY="178dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_pink"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Featured Articles"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/articleimg1" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textAlignment="center"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:text="Putting Men In Menstruation: How The Unaware Gender Is Warming Up To The Monthly Guest\n https://thelogicalindian.com/exclusive/unaware-gender-menstruation" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

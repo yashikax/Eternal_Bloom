@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Alert CareTaker"
+        android:icon="@drawable/baseline_add_alert_24"
+        android:id="@+id/menu_alert"
+        />
+    <item android:title="HomePage"
+        android:icon="@drawable/person_icon"
+        android:id="@+id/menu_profile"
+        />
+    <item android:title="LogOut"
+        android:icon="@drawable/icon_logout"
+        android:id="@+id/menu_logout"
+        />
+</menu>

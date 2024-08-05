@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946486812389",
+    "project_id": "eternalbloom-93fda",
+    "storage_bucket": "eternalbloom-93fda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946486812389:android:9a28f8c3d36def5ddd7e0c",
+        "android_client_info": {
+          "package_name": "com.example.eternal_bloom2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvsMkwVvXaE4Bv30OmzKAu4vjPm-VEkyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

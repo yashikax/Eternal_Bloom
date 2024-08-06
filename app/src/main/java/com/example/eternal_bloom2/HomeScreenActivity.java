@@ -255,7 +255,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
-                .header("Authorization", "Bearer AAAA3F8CnuU:APA91bFPqzoR1CY482i3A_hHThD2s6JBdY8qo7648HhJrH95vEqPpqrWkhbI-HnSxMZ3jYxsqC2YOfSDrtUkHqZt43B-BEOU0U3pkSSAiV8XrfmIkqgB7gtoGfv_lGiDRwr1BDTZ0McV")
+                .header("Authorization", "Bearer //your bearer token")
                 .build();
         client.newCall(request).enqueue(new Callback() {
             @Override
